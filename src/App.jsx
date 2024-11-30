@@ -1,5 +1,5 @@
 import React from 'react';
-import fotoFerdy from './assets/fotoferdy.jpeg'
+import fotoFerdy from './src/assets/fotoferdy.jpeg'
 
 const LinkTree = () => {
   const links = [
