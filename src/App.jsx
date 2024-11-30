@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoFerdy from './assets/fotoferdy.jpeg'
 
 const LinkTree = () => {
   const links = [
@@ -32,7 +33,7 @@ const LinkTree = () => {
         <div className="text-center mb-8">
           <div className="avatar">
             <div className="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="./src/assets/fotoFerdy.jpeg" alt="Profile" />
+              <img src={fotoFerdy} alt="Profile" />
             </div>
           </div>
           <h1 className="text-2xl font-bold text-white mt-4">Ferdy Dharmawan Dwi Budiono</h1>
